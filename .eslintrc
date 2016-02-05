@@ -1,0 +1,30 @@
+{
+  "extends": "airbnb",
+
+  "globals": {
+    "Meteor": true,
+    "$": true,
+    "_": true,
+    "Session": true,
+    "Template": true,
+    "check": true,
+    "chalk": true,
+    "FlowRouter": true,
+    "SimpleSchema": true,
+    "MochaWeb": true,
+    "chai": true,
+    "Accounts": true,
+    "Roles": true,
+    "ServiceConfiguration": true
+  },
+
+  "ecmaFeatures": {
+    "experimentalObjectRestSpread": true // Habilitado para poder usar spreads (...) en los objetos
+  },
+
+  rules: {
+    // React rules
+    "react/prop-types": 0 // Deshabilitado por la inyección de dependencias con 'react-simple-di'
+  }
+
+}

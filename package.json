@@ -1,0 +1,26 @@
+{
+  "name": "komposer-meteor-example",
+  "version": "1.0.0",
+  "description": "Komposer Meteor Example",
+  "author": "Fran Rouco",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint ./client ./lib ./server --ext .js --ext .jsx",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/mitca-studio/micro-mooc-lms"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^4.0.0",
+    "eslint-plugin-react": "^3.16.1"
+  },
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-komposer": "^1.2.1",
+    "react-mounter": "^1.0.0"
+  }
+}
