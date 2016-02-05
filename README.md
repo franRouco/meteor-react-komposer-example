@@ -5,8 +5,16 @@ A little example using 'react-komposer' package with Meteor 1.3 beta and Es6 syn
 
 ## Table of contents
 
+- [Quick start](#quick-start)
 - [Commands](#commands)
 - [Packages & libs](#packages--libs)
+
+### Quick start
+
+```sh
+$ npm install
+$ meteor
+```
 
 ### Commands
 
